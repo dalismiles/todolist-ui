@@ -1,9 +1,6 @@
 .ToDo {
-  padding: 6px;
   width: 420px;
-  border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0.5);
-
+  padding: 5px;
 }
 
 .ToDo__li {
@@ -12,15 +9,16 @@
   align-items: baseline;
   justify-content: space-between;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .strike {
   text-decoration: line-through;
-  color: #8abebc;
+  color: #7fa2c2;
+  cursor: default;
 }
 
 .ToDo__li--postDate {
   text-transform: uppercase;
-  font-size: small;
-  font-weight: lighter;
+  font-size: x-small;
 }

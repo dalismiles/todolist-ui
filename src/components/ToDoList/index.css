@@ -1,2 +1,30 @@
-.TodoList {
+.ToDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 18px;
+}
+
+.clear {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: #496d85;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clear:hover,
+.clear:focus {
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: #7fa2c2;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

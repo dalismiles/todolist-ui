@@ -3,14 +3,20 @@ import "./index.css";
 
 const ToDoList = ({ toDoList, handleToggle, handleFilter }) => {
   return (
-    <div>
-            {toDoList.map(todo => {
-                return (
-                    <ToDo todo={todo} handleToggle={handleToggle} handleFilter={handleFilter}/>
-                )
-            })}
-            <button style={{margin: '20px'}} onClick={handleFilter}>Clear Completed</button>
-        </div>
+    <div className="ToDoList">
+      {toDoList.map((todo) => {
+        return (
+          <ToDo
+            todo={todo}
+            handleToggle={handleToggle}
+            handleFilter={handleFilter}
+          />
+        );
+      })}
+      <button className="clear" onClick={handleFilter}>
+        Clear Completed
+      </button>
+    </div>
   );
 };
 
