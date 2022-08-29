@@ -1,0 +1,26 @@
+.ToDo {
+  padding: 6px;
+  width: 420px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.ToDo__li {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #8abebc;
+}
+
+.ToDo__li--postDate {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: lighter;
+}
